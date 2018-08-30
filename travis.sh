@@ -1,6 +1,7 @@
 #!/bin/sh
 
 set -xe
+echo TEST_KAFKA_BROKER_VERSION
 
 git clone --depth 1 --branch "$LIBRDKAFKA_VERSION" https://github.com/edenhill/librdkafka.git
 (
